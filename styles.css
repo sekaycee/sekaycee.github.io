@@ -66,23 +66,27 @@ a {
   font-size: 3vh;
 }
 
-.fa.fa-github:hover {
+.bi.bi-envelope:hover {
+  color: cornflowerblue;
+}
+
+.bi.bi-github:hover {
   color: #3B446B;
 }
 
-.fa.fa-twitter:hover {
+.bi.bi-twitter:hover {
   color: #1da1f2;
 }
 
-.fa.fa-linkedin:hover {
+.bi.bi-linkedin:hover {
   color: #3b5998;
 }
 
-.fa.fa-gitlab:hover {
+.bi.bi-gitlab:hover {
   color: #E24745;
 }
 
-.fab.fa-medium-m:hover {
+.bi.bi-medium:hover {
   color: #389E75;
 }
 
@@ -106,8 +110,4 @@ a {
 
 .div-job-title {
   width: auto;
-}
-
-.fas.fa-envelope:hover {
-  color: orange;
 }
