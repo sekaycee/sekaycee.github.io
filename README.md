@@ -11,7 +11,7 @@ Source code for my portfolio.
 ## Features
 * Responsive Design (RD)
 * Fonts obtained from Google Fonts
-* Icons obtained from Font Awesome 5
+* Icons obtained from Bootstrap Icons
 
 ## Author
 * Kay Cee - [sekaycee](https://github.com/sekaycee)
