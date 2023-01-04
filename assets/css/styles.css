@@ -1,0 +1,113 @@
+p {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+a {
+  font-family: 'Montserrat';
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.top-div {
+  height: 50vh;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.bottom-div {
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-div p {
+  margin: 0;
+}
+
+.span-name {
+  color: #3c782c;
+  font-size: 9vh;
+  margin: 0;
+}
+
+.job-title b, strong {
+  font-size: 3vh;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 1.5s steps(18, end), blink-caret .5s step-end infinite;
+  overflow: hidden;
+  display: block;
+  border-right: .15em solid orange;
+}
+
+.bottom-div .social-media {
+  height: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.social-media i {
+  color: #212529;
+  font-size: 3vh;
+}
+
+.fa.fa-github:hover {
+  color: #3B446B;
+}
+
+.fa.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa.fa-linkedin:hover {
+  color: #3b5998;
+}
+
+.fa.fa-gitlab:hover {
+  color: #E24745;
+}
+
+.fab.fa-medium-m:hover {
+  color: #389E75;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.div-job-title {
+  width: auto;
+}
+
+.fas.fa-envelope:hover {
+  color: orange;
+}
