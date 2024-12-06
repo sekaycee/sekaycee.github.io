@@ -1,10 +1,9 @@
 p {
-  font-family: 'Montserrat';
   text-align: center;
 }
 
-a {
-  font-family: 'Montserrat';
+p, a {
+  font-family: 'Inter', sans-serif;
 }
 
 .main-div {
